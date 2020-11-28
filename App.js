@@ -310,6 +310,46 @@ const styles3 = StyleSheet.create({
   },
 });
 
-//Perfil Candidato
+//Partido Elegido
+const App5 = () => {
+  return (
+    <><View style={{ flex: 1, backgroundColor: '#eee' }}>
 
-export default App3;
+      <Text style={styles5.nya5}>Nombres y Apellidos</Text>
+      
+      <TouchableHighlight style={styles5.btnSendss5}>
+        <Text style={styles2.textSend2}>Comparar</Text>
+      </TouchableHighlight>
+
+    </View>
+    </>
+  );
+};
+
+const styles5 = StyleSheet.create({
+
+    btnSendss5: {
+    backgroundColor: '#2980b9',
+    marginTop: 500,
+    paddingVertical: 10,
+    marginHorizontal: 120,
+    marginLeft: 130,
+    borderRadius: 30,
+    borderWidth: 1,
+    borderColor: '#fff'
+  },
+  
+  nya5: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#eee',
+    fontSize: 15,
+    textAlign: 'left',
+    marginBottom: 0,
+    marginTop: 80,
+    marginLeft: 60
+  },
+  
+});
+
+export default App5;
